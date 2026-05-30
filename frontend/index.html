@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Management</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>User Registration</h2>
+
+<input type="text" id="name" placeholder="Name" required>
+<input type="email" id="email" placeholder="Email" required>
+<input type="password" id="password" placeholder="Password" required>
+
+<button onclick="registerUser()">Register</button>
+
+<p id="error" style="color:red;"></p>
+
+<h2>Users List</h2>
+<button onclick="getUsers()">Load Users</button>
+
+<ul id="userList"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
